@@ -15,22 +15,29 @@ document.addEventListener("keydown", function(KeyboardEvent){
 
 document.querySelector("span").addEventListener("click", function(){
     makeSound("w");
+    buttonAnimation("w");
     setTimeout(function(){
+        buttonAnimation("a");
         makeSound("a");
     }, 250);
     setTimeout(function(){
+        buttonAnimation("s");
         makeSound("s");
     }, 500);
     setTimeout(function(){
+        buttonAnimation("d");
         makeSound("d");
     }, 750);
     setTimeout(function(){
+        buttonAnimation("j");
         makeSound("j");
     }, 1000);
     setTimeout(function(){
+        buttonAnimation("k");
         makeSound("k");
     }, 1250);
     setTimeout(function(){
+        buttonAnimation("l");
         makeSound("l");
     }, 1500);
 })
