@@ -10,6 +10,9 @@ h1 {
   text-shadow: 3px 0 #DA0463;
 
 }
+h2{
+  opacity: 0;
+}
 
 footer {
   color: #DBEDF3;
@@ -78,4 +81,10 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+.yellow{
+  color: yellow;
+  font-family: cursive;
+  opacity: 1;
 }
