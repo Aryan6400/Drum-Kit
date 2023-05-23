@@ -19,27 +19,27 @@ document.querySelector("span").addEventListener("click", function(){
     setTimeout(function(){
         buttonAnimation("a");
         makeSound("a");
-    }, 250);
+    }, 150);
     setTimeout(function(){
         buttonAnimation("s");
         makeSound("s");
-    }, 500);
+    }, 400);
     setTimeout(function(){
         buttonAnimation("d");
         makeSound("d");
-    }, 750);
+    }, 550);
     setTimeout(function(){
         buttonAnimation("j");
         makeSound("j");
-    }, 1000);
+    }, 800);
     setTimeout(function(){
         buttonAnimation("k");
         makeSound("k");
-    }, 1250);
+    }, 900);
     setTimeout(function(){
         buttonAnimation("l");
         makeSound("l");
-    }, 1500);
+    }, 1000);
 })
 
 
