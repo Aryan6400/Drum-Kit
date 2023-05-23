@@ -11,7 +11,35 @@ document.addEventListener("keydown", function(KeyboardEvent){
     var keyText = KeyboardEvent.key;
     makeSound(keyText);
     buttonAnimation(keyText);
+});
+
+document.querySelector("span").addEventListener("click", function(){
+    makeSound("w");
+    setTimeout(function(){
+        makeSound("a");
+    }, 250);
+    setTimeout(function(){
+        makeSound("s");
+    }, 500);
+    setTimeout(function(){
+        makeSound("d");
+    }, 750);
+    setTimeout(function(){
+        makeSound("j");
+    }, 1000);
+    setTimeout(function(){
+        makeSound("k");
+    }, 1250);
+    setTimeout(function(){
+        makeSound("l");
+    }, 1500);
 })
+
+
+document.querySelector("h2").classList.add("yellow");
+setTimeout(function(){
+    document.querySelector("h2").classList.remove("yellow");
+}, 3000);
 
 function makeSound(key){
     switch (key) {
